@@ -17,7 +17,7 @@
 
  //refactor
 
-const splitFirstAndLastNames = str => str.split(' ');
+const splitFirstAndLastNames = (str) => str.split(' ');
 
 
 /** =========================
@@ -34,7 +34,7 @@ const splitFirstAndLastNames = str => str.split(' ');
 
 //refactor
 
-const personAge = personObject => personObject.age;
+const personAge = (personObject) => personObject.age;
 
 /** =========================
  * The isNameInArray function takes an array and string of name as the arguments.
@@ -74,7 +74,7 @@ const isNameInArray = (arr, name) => arr.includes(name);
 
 //refactor
 
-const logSecondsUpToMax = max => {
+const logSecondsUpToMax = (max) => {
   let i = 0;
   const timer = setInterval(() => {
     if (i < max) {

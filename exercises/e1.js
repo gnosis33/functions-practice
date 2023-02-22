@@ -12,7 +12,7 @@
 */
 
 function logMessage() {
-  console.log('Hello, World')
+  console.log('Hello, World!');
 }
 
 
@@ -28,8 +28,7 @@ function logMessage() {
 */
 
 function logMyMessage(message) {
-  const myMessage = console.log(message)
-  return myMessage
+  console.log(message);
 }
 
 
@@ -44,8 +43,7 @@ function logMyMessage(message) {
 */
 
 function logMessageWithMyName(name) {
-  const myName = console.log(`My name is ${name}!`);
-  return myName
+  console.log(`My name is ${name}!`);
 }
 
 
@@ -61,8 +59,7 @@ function logMessageWithMyName(name) {
 */
 
 function logMyInfo(name, age) {
-  const myInfo = console.log(`My name is ${name}. I am ${age} years old!`);
-  return myInfo
+  console.log(`My name is ${name}. I am ${age} years old!`);
 }
 
 
